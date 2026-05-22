@@ -1,7 +1,7 @@
 import{test, expect} from '@playwright/test';
 
 test('Practice jenkins 4', async ({page}) => {
-    console.log('Starting practice test 4')
+    console.log('Starting practicee test 4')
     await page.goto('https://www.google.com/');
     console.log(await page.title());
     await expect(page).toHaveTitle('Google');
